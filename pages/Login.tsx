@@ -71,6 +71,7 @@ const Login: React.FC<LoginProps> = ({ onLogin, onClearData }) => {
                                 id={`login-pin-${index}`}
                                 className={`w-8 h-12 sm:w-10 sm:h-14 text-center bg-[#1a352f] border ${error ? 'border-red-500 text-red-400' : 'border-surface-highlight text-white'} rounded-lg text-xl font-bold focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary/50 transition-all shadow-inner placeholder-white/10`}
                                 inputMode="numeric"
+                                autoComplete="off"
                                 maxLength={1}
                                 type={showPin ? "text" : "password"}
                                 placeholder="•"
