@@ -1,0 +1,254 @@
+[
+  {
+    "id": "new_mind_1",
+    "name": "SALUD EMOCIONAL",
+    "description": "5 min diarios - \"Identifica 1 emoción difícil y nómbrala en voz alta\"",
+    "dimension": "Mente",
+    "score": 1
+  },
+  {
+    "id": "new_body_1",
+    "name": "MOVIMIENTO CONSCIENTE",
+    "description": "10 min diarios - \"Camina 10 min a ritmo suave con atención en la respiración\"",
+    "dimension": "Cuerpo",
+    "score": 1
+  },
+  {
+    "id": "new_spirit_1",
+    "name": "CONEXIÓN CON PROPÓSITO",
+    "description": "3 min diarios - \"Responde: ¿Qué me motiva hoy?\"",
+    "dimension": "Espíritu",
+    "score": 1
+  },
+  {
+    "id": "new_mind_2",
+    "name": "SALUD EMOCIONAL",
+    "description": "8 min diarios - \"Registra 3 emociones del día y su intensidad (1-10)\"",
+    "dimension": "Mente",
+    "score": 2
+  },
+  {
+    "id": "new_body_2",
+    "name": "MOVIMIENTO CONSCIENTE",
+    "description": "20 min diarios - \"Camina 20 min incluyendo 5 min de cambios de ritmo\"",
+    "dimension": "Cuerpo",
+    "score": 2
+  },
+  {
+    "id": "new_spirit_2",
+    "name": "CONEXIÓN CON PROPÓSITO",
+    "description": "5 min diarios - \"Escribe 1 acción alineada con mi propósito\"",
+    "dimension": "Espíritu",
+    "score": 2
+  },
+  {
+    "id": "new_mind_3",
+    "name": "SALUD EMOCIONAL",
+    "description": "3 min diarios - \"Practica aceptación radical de 1 emoción sin juzgarla\"",
+    "dimension": "Mente",
+    "score": 3
+  },
+  {
+    "id": "new_body_3",
+    "name": "MOVIMIENTO CONSCIENTE",
+    "description": "30 min 5x/semana - \"Combina caminata con ejercicios de fuerza básicos\"",
+    "dimension": "Cuerpo",
+    "score": 3
+  },
+  {
+    "id": "new_spirit_3",
+    "name": "CONEXIÓN CON PROPÓSITO",
+    "description": "10 min diarios - \"Revisa y ajusta metas semanales de propósito\"",
+    "dimension": "Espíritu",
+    "score": 3
+  },
+  {
+    "id": "new_mind_4",
+    "name": "RELACIONES PERSONALES",
+    "description": "5 min diarios - \"Envía 1 mensaje de aprecio a alguien importante\"",
+    "dimension": "Mente",
+    "score": 1
+  },
+  {
+    "id": "new_body_4",
+    "name": "NUTRICIÓN INTELIGENTE",
+    "description": "1 acción diaria - \"Incluye 1 verdura extra en tu comida principal\"",
+    "dimension": "Cuerpo",
+    "score": 1
+  },
+  {
+    "id": "new_spirit_4",
+    "name": "PRÁCTICAS CONTEMPLATIVAS",
+    "description": "5 min diarios - \"Observa la respiración sin modificar\"",
+    "dimension": "Espíritu",
+    "score": 1
+  },
+  {
+    "id": "new_mind_5",
+    "name": "RELACIONES PERSONALES",
+    "description": "10 min diarios - \"Ten 1 conversación donde solo escuches activamente\"",
+    "dimension": "Mente",
+    "score": 2
+  },
+  {
+    "id": "new_body_5",
+    "name": "NUTRICIÓN INTELIGENTE",
+    "description": "2 acciones diarias - \"Consume proteína en cada comida principal (20–30 g por comida) y mantén hidratación consistente\"",
+    "dimension": "Cuerpo",
+    "score": 2
+  },
+  {
+    "id": "new_spirit_5",
+    "name": "PRÁCTICAS CONTEMPLATIVAS",
+    "description": "10 min diarios - \"Meditación guiada con enfoque en compasión\"",
+    "dimension": "Espíritu",
+    "score": 2
+  },
+  {
+    "id": "new_mind_6",
+    "name": "RELACIONES PERSONALES",
+    "description": "15 min 3x/semana - \"Planifica 1 encuentro social significativo semanal\"",
+    "dimension": "Mente",
+    "score": 3
+  },
+  {
+    "id": "new_body_6",
+    "name": "NUTRICIÓN INTELIGENTE",
+    "description": "Plan semanal - \"Planifica 90% de comidas semanales balanceadas\"",
+    "dimension": "Cuerpo",
+    "score": 3
+  },
+  {
+    "id": "new_spirit_6",
+    "name": "PRÁCTICAS CONTEMPLATIVAS",
+    "description": "15 min diarios - \"Meditación en silencio + escaneo corporal\"",
+    "dimension": "Espíritu",
+    "score": 3
+  },
+  {
+    "id": "new_mind_7",
+    "name": "DESARROLLO PROFESIONAL",
+    "description": "10 min diarios - \"Identifica 1 micro-habilidad a mejorar esta semana\"",
+    "dimension": "Mente",
+    "score": 1
+  },
+  {
+    "id": "new_body_7",
+    "name": "DESCANSO REPARADOR",
+    "description": "7 horas/noche - \"Establece hora fija de sueño ±30 min\"",
+    "dimension": "Cuerpo",
+    "score": 1
+  },
+  {
+    "id": "new_spirit_7",
+    "name": "CULTIVO DE VALORES",
+    "description": "3 min diarios - \"Identifica 1 valor importante hoy\"",
+    "dimension": "Espíritu",
+    "score": 1
+  },
+  {
+    "id": "new_mind_8",
+    "name": "DESARROLLO PROFESIONAL",
+    "description": "15 min diarios - \"Dedica 15 min a aprendizaje activo en tu área\"",
+    "dimension": "Mente",
+    "score": 2
+  },
+  {
+    "id": "new_body_8",
+    "name": "DESCANSO REPARADOR",
+    "description": "7.5 horas/noche - \"Añade 30 min sin pantallas antes de dormir\"",
+    "dimension": "Cuerpo",
+    "score": 2
+  },
+  {
+    "id": "new_spirit_8",
+    "name": "CULTIVO DE VALORES",
+    "description": "5 min diarios - \"Escribe cómo viví 1 valor hoy\"",
+    "dimension": "Espíritu",
+    "score": 2
+  },
+  {
+    "id": "new_mind_9",
+    "name": "DESARROLLO PROFESIONAL",
+    "description": "30 min 3x/semana - \"Mentorea o comparte conocimiento con otros\"",
+    "dimension": "Mente",
+    "score": 3
+  },
+  {
+    "id": "new_body_9",
+    "name": "DESCANSO REPARADOR",
+    "description": "8 horas/noche - \"Mantiene rutina de sueño consistente fines de semana\"",
+    "dimension": "Cuerpo",
+    "score": 3
+  },
+  {
+    "id": "new_spirit_9",
+    "name": "CULTIVO DE VALORES",
+    "description": "8 min diarios - \"Reflexiona sobre coherencia valores–acciones\"",
+    "dimension": "Espíritu",
+    "score": 3
+  },
+  {
+    "id": "new_mind_10",
+    "name": "ESTABILIDAD FINANCIERA",
+    "description": "5 min diarios - \"Revisa 1 gasto diario y su alineación con tus valores\"",
+    "dimension": "Mente",
+    "score": 1
+  },
+  {
+    "id": "new_body_10",
+    "name": "RECUPERACIÓN ACTIVA",
+    "description": "5 min diarios - \"Estiramientos suaves al despertar\"",
+    "dimension": "Cuerpo",
+    "score": 1
+  },
+  {
+    "id": "new_spirit_10",
+    "name": "SENTIDO DE TRASCENDENCIA",
+    "description": "5 min diarios - \"Agradece por 1 cosa pequeña pero significativa\"",
+    "dimension": "Espíritu",
+    "score": 1
+  },
+  {
+    "id": "new_mind_11",
+    "name": "ESTABILIDAD FINANCIERA",
+    "description": "10 min diarios - \"Registra todos los gastos en app financiera\"",
+    "dimension": "Mente",
+    "score": 2
+  },
+  {
+    "id": "new_body_11",
+    "name": "RECUPERACIÓN ACTIVA",
+    "description": "10 min diarios - \"Estiramientos + 2 min de respiración profunda (4–7–8: inhalar 4 s, retener 7 s, exhalar 8 s)\"",
+    "dimension": "Cuerpo",
+    "score": 2
+  },
+  {
+    "id": "new_spirit_11",
+    "name": "SENTIDO DE TRASCENDENCIA",
+    "description": "8 min diarios - \"Reflexiona sobre tu conexión con algo mayor\"",
+    "dimension": "Espíritu",
+    "score": 2
+  },
+  {
+    "id": "new_mind_12",
+    "name": "ESTABILIDAD FINANCIERA",
+    "description": "20 min semanales - \"Revisa y ajusta presupuesto mensual\"",
+    "dimension": "Mente",
+    "score": 3
+  },
+  {
+    "id": "new_body_12",
+    "name": "RECUPERACIÓN ACTIVA",
+    "description": "15 min diarios - \"Yoga suave o movilidad articular completa\"",
+    "dimension": "Cuerpo",
+    "score": 3
+  },
+  {
+    "id": "new_spirit_12",
+    "name": "SENTIDO DE TRASCENDENCIA",
+    "description": "12 min diarios - \"Practica contemplación en naturaleza o arte\"",
+    "dimension": "Espíritu",
+    "score": 3
+  }
+]

@@ -1,0 +1,204 @@
+PROPRIETARY SOFTWARE LICENSE AGREEMENT
+=======================================
+Copyright © 2024-2026 A.A. Johnson. All Rights Reserved.
+
+This Software License Agreement (“Agreement”) governs the use of the application “Bienestar Integral” (“Software”), developed and owned by A.A. Johnson (“Licensor”).
+
+By installing, accessing, or using this Software, you (“User”) agree to be bound by all terms and conditions of this Agreement.
+If you do not agree, you must not install or use the Software.
+
+1. Ownership and Intellectual Property 
+======================================
+1.1. The Software, including its source code, design, interface, structure, organization, documentation, data logic, graphics, and any other associated components, is the exclusive property of the Licensor.
+1.2. This Agreement does not transfer any ownership rights to the User.
+1.3. All rights not expressly granted herein are reserved.
+1.4. This Software may contain third-party components (e.g., open-source libraries) subject to their own respective licenses. The Licensor makes no claim of ownership over these third-party components.
+
+2. Grant of License
+===================
+2.1. The Licensor grants the User a non-exclusive, non-transferable, revocable right to install and use the Software solely for personal, non-commercial purposes.
+2.2. The User is not allowed to:
+
+distribute, sell, sublicense, or rent the Software;
+
+modify, decompile, reverse-engineer, or attempt to access the source code;
+
+publish, upload, or make the Software available to third parties;
+
+create derivative works based on the Software.
+
+3. Data and Privacy
+===================
+3.1. All data entered by the User remains stored locally on the User’s device unless the user exports it manually.
+3.2. The Software does not transmit personal data to external servers unless the User explicitly initiates an export or backup process.
+3.3. The User is solely responsible for safeguarding their PIN, exported files, and device security.
+
+4. Restrictions
+===============
+4.1. The User may not use the Software in any manner that:
+
+violates applicable laws or regulations,
+
+infringes on the rights of the Licensor or others,
+
+attempts to bypass the security system, including PIN protection.
+
+5. Updates
+==========
+5.1. The Licensor may release updates, improvements, or patches.
+5.2. Updates may modify or replace certain functions without prior notice.
+5.3. The User is not entitled to request features or modifications unless the Licensor chooses to implement them.
+
+6. No Warranty
+==============
+The Software is provided “AS IS”, without any express or implied guarantees.
+The Licensor does not warrant that:
+
+the Software will operate without errors,
+
+all features will function under every device or system configuration,
+
+the Software is fit for a specific purpose.
+
+7. Limitation of Liability
+==========================
+To the maximum extent permitted by law, the Licensor shall not be liable for:
+
+loss of data,
+
+device malfunction,
+
+indirect, incidental, or consequential damages,
+
+errors derived from modifications made by the User.
+
+8. Termination
+==============
+8.1. This Agreement remains in effect until terminated.
+8.2. The Licensor may terminate the license immediately if the User violates any terms.
+8.3. Upon termination, the User must stop using the Software and delete all copies.
+
+9. Applicable Law
+=================
+This Agreement shall be governed and interpreted in accordance with the laws of the User’s country of residence unless applicable international intellectual property laws dictate otherwise.
+
+10. Contact Information
+=======================
+For support, inquiries, or legal notices, please contact the Licensor at: support@ajbienestarintegral.com (or applicable contact email).
+
+
+****************************** Español ****************************************************
+
+LICENCIA DE USO – SOFTWARE “Bienestar Integral”
+Copyright © 2024-2026 A.A. Johnson. Todos los derechos reservados.
+
+1. Introducción
+================
+Este documento constituye un acuerdo legal entre el Titular del Software (A.A. Johnson) y el Usuario final. El presente acuerdo regula el uso del software denominado “Bienestar Integral”, incluyendo su aplicación web, aplicación móvil, interfaces, código fuente, recursos visuales, documentación técnica y cualquier actualización derivada.
+Al instalar, acceder o utilizar el Software, el Usuario declara haber leído, entendido y aceptado íntegramente esta Licencia.
+
+2. Propiedad Intelectual
+==========================
+Todo el software, diseño, estructura, código, textos, imágenes, funcionalidades y documentación asociada a “Bienestar Integral” son propiedad exclusiva de A.A. Johnson.
+El Usuario no adquiere ningún derecho de propiedad intelectual, sino únicamente un derecho de uso limitado, personal y revocable.
+Este software puede incluir componentes de terceros sujetos a sus propias licencias independientes.
+
+3. Derechos Otorgados
+=====================
+Se concede al Usuario lo siguiente:
+
+Un derecho NO exclusivo de usar la aplicación “Bienestar Integral”.
+
+Un derecho NO transferible; no se puede vender, ceder, sublicenciar ni prestar el acceso a terceros.
+
+Un derecho limitado a instalar la aplicación en sus dispositivos personales.
+
+Un derecho de acceso a las actualizaciones que el Titular decida publicar.
+
+4. Restricciones
+================
+El Usuario NO está autorizado a:
+
+Copiar total o parcialmente el Software.
+
+Descompilar, desensamblar, realizar ingeniería inversa o intentar obtener el código fuente.
+
+Modificar, traducir, alterar o crear derivados del Software.
+
+Distribuir, revender, alquilar, comercializar o compartir el Software con terceros.
+
+Eludir sistemas de seguridad, cifrado o autenticación, incluyendo el sistema de PIN.
+
+Usar el Software para fines ilícitos, engañosos o no autorizados.
+
+Cualquier incumplimiento representa una violación inmediata de esta Licencia.
+
+5. Seguridad y Privacidad
+=========================
+El Software almacena información del Usuario de forma local en el dispositivo, pudiendo emplear mecanismos de cifrado si están disponibles.
+El Usuario es responsable de:
+
+Mantener la seguridad física de su dispositivo.
+
+Usar un PIN seguro.
+
+No compartir su dispositivo ni su acceso con terceros.
+
+El Titular no recopila datos externos, pero no se responsabiliza de pérdidas derivadas de robo de dispositivos, accesos no autorizados o fallos del hardware del Usuario.
+
+6. Limitación de Responsabilidad
+================================
+El Software se proporciona “tal cual” y sin garantías de ningún tipo, explícitas o implícitas.
+El Titular NO será responsable por:
+
+Daños directos o indirectos derivados del uso o mal uso del Software.
+
+Pérdida de datos, interrupción del servicio o fallos del dispositivo.
+
+Resultados obtenidos o decisiones tomadas a partir del contenido del Software.
+
+El Usuario utiliza el Software bajo su propio riesgo.
+
+7. Actualizaciones y Cambios
+============================
+El Titular puede:
+
+Actualizar el Software.
+
+Modificar funcionalidades.
+
+Corregir errores.
+
+Agregar o remover características.
+
+Suspender temporal o permanentemente parte del servicio.
+
+Estas modificaciones no requieren notificación previa.
+
+8. Terminación de la Licencia
+=============================
+La Licencia podrá ser terminada si:
+
+El Usuario incumple cualquier cláusula de este acuerdo.
+
+El Usuario manipula, altera o copia el Software de manera no autorizada.
+
+El Titular decide descontinuar el Software.
+
+Tras la terminación, el Usuario deberá eliminar por completo el Software de sus dispositivos.
+
+9. Ley Aplicable
+================
+Esta Licencia se regirá e interpretará conforme a las leyes del país de residencia del Titular (Canadá o el país donde se encuentre en el momento de registro legal).
+En caso de controversia, las partes aceptan resolverla ante los tribunales competentes de dicha jurisdicción.
+
+10. Contacto
+============
+Para soporte, consultas o notificaciones legales, contacte al Titular en: support@ajbienestarintegral.com.
+
+11. Aceptación
+==============
+El uso del Software implica la aceptación total de esta Licencia.
+Si el Usuario no acepta alguna cláusula, debe dejar de usar el Software de inmediato.
+
+FIN DE LA LICENCIA
