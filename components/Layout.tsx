@@ -397,9 +397,14 @@ const Layout: React.FC<LayoutProps> = ({ children, user, activePage, onNavigate,
             {/* Mobile User Profile Section */}
             <div className="flex gap-4 items-center pb-2">
               <div
-                className="bg-center bg-no-repeat bg-cover rounded-full size-12 shrink-0 border-2 border-primary"
+                className="bg-center bg-no-repeat bg-cover rounded-full size-12 shrink-0 border-2 border-primary cursor-pointer active:opacity-80 transition-opacity relative group"
                 style={{ backgroundImage: `url("${user.avatarUrl || 'https://picsum.photos/seed/user/200'}")` }}
-              ></div>
+                onClick={handleAvatarClick}
+              >
+                <div className="absolute inset-0 flex items-center justify-center bg-black/30 opacity-0 group-active:opacity-100 rounded-full transition-opacity">
+                   <span className="material-symbols-outlined text-white text-[10px]">edit</span>
+                </div>
+              </div>
               <div className="flex flex-col overflow-hidden">
                 <h1 className="text-slate-900 dark:text-white text-base font-bold truncate">{user.name}</h1>
                 <p className="text-teal-600 dark:text-text-secondary text-xs font-normal truncate">Nivel: {user.level}</p>
