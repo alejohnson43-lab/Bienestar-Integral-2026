@@ -16,6 +16,8 @@ import Personalizar from '@/pages/Personalizar.tsx';
 import { UserProfile } from '@/types.ts';
 import { EncryptedStorage } from '@/utils/storage.ts';
 import { getLevelTitle } from '@/utils/levels.ts';
+import { LicenseService } from '@/services/license.ts';
+import LicenseActivation from '@/pages/LicenseActivation.tsx';
 
 // Simple mocked user template
 const MOCK_USER_TEMPLATE: UserProfile = {
@@ -28,6 +30,9 @@ const MOCK_USER_TEMPLATE: UserProfile = {
 };
 
 const App: React.FC = () => {
+  const [hasLicense, setHasLicense] = useState(false);
+  const [isCheckingLicense, setIsCheckingLicense] = useState(true);
+
   const [isAuthenticated, setIsAuthenticated] = useState(false);
   const [activePage, setActivePage] = useState('dashboard');
   const [user, setUser] = useState<UserProfile | null>(null);
@@ -37,7 +42,45 @@ const App: React.FC = () => {
   const [theme, setTheme] = useState<'light' | 'dark'>('dark');
 
   useEffect(() => {
-    // Check local storage for persistent auth
+    // 1. Check License first
+    const verifyLicense = async () => {
+      const license = LicenseService.getLocalLicense();
+
+      if (license && license.isValid) {
+        setHasLicense(true);
+
+        // Revalidation Logic (One-Time Check after 30 days)
+        if (!license.checkPassed30Days) {
+          const purchaseDate = license.purchaseDate ? new Date(license.purchaseDate).getTime() : 0;
+          // If no purchase date (legacy simulation), fallback to activation date or last check
+          const startTime = purchaseDate > 0 ? purchaseDate : (license.lastCheck ? new Date(license.lastCheck).getTime() : 0);
+
+          const now = new Date().getTime();
+          const daysSinceStart = (now - startTime) / (1000 * 60 * 60 * 24);
+
+          if (daysSinceStart >= 30) {
+            console.log("Licencia: Verificación única de los 30 días requerida...");
+            try {
+              // Validate silently (must pass markAs30DayChecked = true)
+              await LicenseService.activateLicense(license.email!, true);
+              console.log("Licencia: Verificación de 30 días completada. No se volverá a pedir.");
+            } catch (err) {
+              console.warn("Licencia: Falló verificación de 30 días.", err);
+
+              // If it fails, we remove license because the policy is "Grace period over".
+              LicenseService.removeLicense();
+              setHasLicense(false);
+              alert("Tu periodo de prueba de 30 días ha finalizado y no se pudo verificar tu compra. Por favor conéctate a internet para validar tu licencia por única vez.");
+            }
+          }
+        }
+      }
+      setIsCheckingLicense(false);
+    };
+
+    verifyLicense();
+
+    // 2. Check local storage for persistent auth
     const exists = EncryptedStorage.exists('bi_user');
     setHasEncryptedUser(exists);
 
@@ -126,6 +169,7 @@ const App: React.FC = () => {
     setUser(null);
     setActivePage('dashboard');
     // We do NOT clear storage. We just lock the door.
+    // Also we do NOT clear license.
   };
 
   const handleClearData = () => {
@@ -148,6 +192,15 @@ const App: React.FC = () => {
     EncryptedStorage.removeItem('bi_has_submitted');
 
     // Attempt to clear everything to be safe
+    // But preserve Theme and License if possible, or force re-licensing?
+    // User requested "Borrar TODO", usually implies reset to factory.
+    // Let's decide if License should persist. Usually Factory Reset implies cleaning license too.
+    // localStorage.clear(); -> This kills the license.
+
+    // Manually clearing local storage but keeping license? 
+    // If the user wants to truly reset, deleting license is safer.
+    LicenseService.removeLicense();
+    setHasLicense(false);
     localStorage.clear();
   };
 
@@ -158,6 +211,19 @@ const App: React.FC = () => {
       // We rely on Layout's reload to refresh the view
     }
   };
+
+  if (isCheckingLicense) {
+    return <div className="min-h-screen bg-black flex items-center justify-center"></div>;
+  }
+
+  // LICENSE CHECK GATE
+  if (!hasLicense) {
+    return (
+      <LicenseActivation
+        onActivationSuccess={() => setHasLicense(true)}
+      />
+    );
+  }
 
   if (showSplash) {
     return <Welcome onEnter={() => setShowSplash(false)} />;
